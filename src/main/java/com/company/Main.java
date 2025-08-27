@@ -11,8 +11,7 @@ public class Main {
      */
     public static void printEmployee(final Employee[] employee) {
         for (final Employee e : employee) {
-            String _result = e.displayDetails();
-            System.out.println(_result);
+            System.out.println(e.displayDetails());
         }
     }
 
